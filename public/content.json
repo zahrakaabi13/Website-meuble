@@ -1,0 +1,17 @@
+[
+    {
+      "Name": "Brune Cash",
+      "Price": "$145.60",
+      "Image": "./img1.png"
+    },
+    {
+        "Name": "Drop Type",
+        "Price": "$265.50",
+        "Image": "./img2.png"
+    },
+    {
+        "Name": "Backboard 3",
+        "Price": "$160.60",
+        "Image": "./img3.png"
+    }
+]

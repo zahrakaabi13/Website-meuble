@@ -1,0 +1,73 @@
+*, 
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgrey !important;
+}
+
+
+/*navbar===
+================================================================*/
+.Navbar{
+  font-size: 1rem;
+}
+.Navbar .brand{
+  font-size: 2rem;
+  margin-left: 10%;
+}
+.link{
+  font-size: 1.3rem;
+  color: black !important;
+}
+
+
+/*navbar===
+================================================================*/
+.menu{
+
+}
+.landing{
+  margin-top: 5%;
+  margin-left: 10% !important;
+}
+
+.landing h1{
+  font-size: 4rem;
+  font-weight: bold;
+  max-width: 20ch;
+}
+.landing button{
+  margin-top: 2%;
+  padding: 10px 60px;
+  background-color:rgb(20, 20, 20);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+
+/*cards===
+================================================================*/
+.card{
+  margin-top: 10%;
+  background:none !important;
+  border: none !important;
+  text-align: center;
+  position: relative;
+}
+.card::before{
+  content: "";
+  width: 100%;
+  z-index: -1 !important;
+  height: 35vh;
+  top:30%;
+  background-color: #fff;
+  position: absolute;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
